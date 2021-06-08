@@ -21,36 +21,42 @@
   <body>
     <!-- Header -->
     <header>
-      <!-- Logo -->
-      <a href="/" class="logo" lang="En"
-        >Web<span class="logo-header">Studio</span></a
-      >
+      <div class="container">
+        <!-- Logo -->
+        <a href="/" class="logo" lang="En"
+          >Web<span class="logo-header">Studio</span></a
+        >
 
-      <!-- Navigation -->
-      <nav>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+        <!-- Navigation -->
+        <nav>
+          <ul class="site-nav list">
+            <li><a href="/" class="link">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contacts -->
+        <ul class="contacts list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link" lang="En"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-
-      <!-- Contacts -->
-      <ul class="contacts list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link" lang="En"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
 
     <!-- Main -->
     <main>
       <!-- Our works -->
+      <h1 class="visually-hidden">Наше портфолио</h1>
       <section class="work-examples">
         <!-- Filters -->
+        <h2 class="visually-hidden">Фильтр</h2>
         <ul class="list">
           <li><button type="button" class="filter-button">Все</button></li>
           <li>
@@ -66,6 +72,7 @@
         </ul>
 
         <!-- Projects -->
+        <h2 class="visually-hidden">Наши проекты</h2>
         <ul class="list project">
           <li>
             <a href="" class="link">
@@ -74,7 +81,7 @@
                 alt="на экране мак бука изображена веб-страница с тремя карточками специалистов - двух женщин и мужчины"
                 width="370"
               />
-              <h2 class="project-title">Технокряк</h2>
+              <h3 class="project-title">Технокряк</h3>
               <p class="project-text">Веб-сайт</p>
             </a>
           </li>
@@ -85,9 +92,9 @@
                 alt="два баскетболиста борются за мяч"
                 width="370"
               />
-              <h2 class="project-title">
+              <h3 class="project-title">
                 Постер <span lang="En">New Orlean vs Golden Star</span>
-              </h2>
+              </h3>
               <p class="project-text">Дизайн</p>
             </a>
           </li>
@@ -98,9 +105,9 @@
                 alt="эмблема ресторана в виде лосося, поверх неё написано название ресторана"
                 width="370"
               />
-              <h2 class="project-title">
+              <h3 class="project-title">
                 Ресторан <span lang="En">Seafood</span>
-              </h2>
+              </h3>
               <p class="project-text">Приложение</p>
             </a>
           </li>
@@ -111,7 +118,7 @@
                 alt="чёрные беспроводные наушники закрытого типа"
                 width="370"
               />
-              <h2 class="project-title">Проект <span lang="En">Prime</span></h2>
+              <h3 class="project-title">Проект <span lang="En">Prime</span></h3>
               <p class="project-text">Маркетинг</p>
             </a>
           </li>
@@ -122,7 +129,7 @@
                 alt="белая прямоугольная коробочка, рядом с ней коричневая прямоугольная коробочка меньшего размера"
                 width="370"
               />
-              <h2 class="project-title">Проект <span lang="En">Boxes</span></h2>
+              <h3 class="project-title">Проект <span lang="En">Boxes</span></h3>
               <p class="project-text">Приложение</p>
             </a>
           </li>
@@ -133,9 +140,9 @@
                 alt="на экране монитора Эйпл веб страница в тёмно-серых тонах с изображением карты мира, зелёными навигационными значками и слоганом"
                 width="370"
               />
-              <h2 class="project-title">
+              <h3 class="project-title">
                 <span lang="En">Inspiration has no Borders</span>
-              </h2>
+              </h3>
               <p class="project-text">Веб-сайт</p>
             </a>
           </li>
@@ -146,9 +153,9 @@
                 alt="разворот страниц женского журнала"
                 width="370"
               />
-              <h2 class="project-title">
+              <h3 class="project-title">
                 Издание <span lang="En">Limited Edition</span>
-              </h2>
+              </h3>
               <p class="project-text">Дизайн</p>
             </a>
           </li>
@@ -159,7 +166,7 @@
                 alt="белая бирочка на верёвке с надписью чёрными заглавными буквами"
                 width="370"
               />
-              <h2 class="project-title">Проект <span lang="En">LAB</span></h2>
+              <h3 class="project-title">Проект <span lang="En">LAB</span></h3>
               <p class="project-text">Маркетинг</p>
             </a>
           </li>
@@ -170,9 +177,9 @@
                 alt="руки на клавиатуре ноутбука, на экране - страница приложения для бизнеса, около ноутбука лежат бумаги и очки"
                 width="370"
               />
-              <h2 class="project-title">
+              <h3 class="project-title">
                 <span lang="En">Growing Business</span>
-              </h2>
+              </h3>
               <p class="project-text">Приложение</p>
             </a>
           </li>
