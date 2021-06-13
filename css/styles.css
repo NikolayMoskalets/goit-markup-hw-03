@@ -343,6 +343,10 @@ header > .container {
   margin-right: 30px;
 }
 
+.card-text {
+  padding: 30px 0px;
+}
+
 .team-titles {
   margin-bottom: 10px;
 
@@ -448,7 +452,7 @@ footer .logo {
 
   background-color: var(--accent-color);
 
-  color: var(--secondary-white-color);
+  color: var(--primary-white-color);
 
   font-family: inherit;
   font-weight: 500;
@@ -471,14 +475,12 @@ footer .logo {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-right: var(--card-set-gap);
   margin-bottom: var(--card-set-gap);
+  border: 1px solid var(--card-border-color);
 }
 
 .card-content {
   box-sizing: border-box;
   padding: 20px 24px;
-  border-left: 1px solid var(--card-border-color);
-  border-bottom: 1px solid var(--card-border-color);
-  border-right: 1px solid var(--card-border-color);
 
   background-color: #fff;
 }
